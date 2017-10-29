@@ -178,18 +178,72 @@
   </nav>
   <div class="content-wrapper">
     <div class="container-fluid">
-      <!-- Breadcrumbs-->
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="dashboard.html">Dashboard</a>
-        </li>
-        <li class="breadcrumb-item active">Blank Page</li>
-      </ol>
-      <div class="row">
-        <div class="col-12">
-          <h1>Blank</h1>
-          <p>This is an example of a blank page that you can use as a starting point for creating new ones.</p>
+
+      <!-- Example DataTables Card-->
+      <div class="card mb-3">
+        <div class="card-header">
+          <i class="fa fa-table"></i> Contracts for Selection</div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+              <thead>
+                <tr>
+                  <th>Class</th>
+                  <th>Number</th>
+                  <th>Suffix</th>
+                  <th>Status</th>
+                  <th>Type</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tfoot>
+                <tr>
+                  <th>Class</th>
+                  <th>Number</th>
+                  <th>Suffix</th>
+                  <th>Status</th>
+                  <th>Type</th>
+                  <th>Description</th>
+                </tr>
+              </tfoot>
+              <tbody>
+                <tr>
+                  <td>ESMT</td>
+                  <td>777</td>
+                  <td></td>
+                  <td>Active</td>
+                  <td>EASEMENT (Special)</td>
+                  <td>Grantsville to Marblehead overhead 46 kv power line.</td>
+                </tr>
+                <tr>
+                  <td>ESMT</td>
+                  <td>1867</td>
+                  <td></td>
+                  <td>Active</td>
+                  <td>EASEMENT</td>
+                  <td>Tooele-Horseshoe 46kV power line.</td>
+                </tr>
+                <tr>
+                  <td>GP</td>
+                  <td>23040</td>
+                  <td></td>
+                  <td>Inactive</td>
+                  <td>GRAZING (STANDARD)</td>
+                  <td>Grazing of Trust Lands</td>
+                </tr>
+                <tr>
+                  <td>GP</td>
+                  <td>23040</td>
+                  <td>12</td>
+                  <td>Active</td>
+                  <td>GRAZING (STANDARD)</td>
+                  <td>No allotment</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
+        <div class="card-footer small text-muted">Updated yesterday at 01:54 PM</div>
       </div>
     </div>
     <!-- /.container-fluid-->
