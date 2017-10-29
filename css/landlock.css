@@ -1,0 +1,21 @@
+.hero-homepage {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.landing-image {
+    background: url(../images/bg.original.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron {
+    background: none;
+}
+  
+.bg-dark {
+    background-color: #74b4ae!important; 
+    background: url(../images/bg.original.png) no-repeat;  
+}
